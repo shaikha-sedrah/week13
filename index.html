@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joy Photography</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link href="http://fonts.cdnfonts.com/css/sonika-personal-use" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <section>
+        <div class="bgimg w3-display-container w3-text-white">
+        <div class="w3-display-topleft w3-container w3-xlarge">
+            <p><button onclick="document.getElementById('contact').style.display='block'">Book a Session</button></p>
+        </div>
+        </div>
+        </section>
+        <section class="sec-two">
+            <div>
+            <p class="heading-text">capture memories<br>
+                tell a story<br>
+            <span>Real Smiles,<br> Real Moments… <br>Captured<br> Beautifully.</span></p></div>
+            <div>
+            <img id="cam" src="cam.svg" alt="cam"></div>
+        </section>
+        <div id="contact" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom">
+            <div class="w3-container">
+            <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+            <h1>Book a Photography Session</h1>
+            </div>
+            <div class="w3-container">
+            <p>RESERVE YOUR SESSION:</p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Number of people" required name="People"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Session Date & Time" required name="date" value="2020-11-16T20:00"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Note to Photographer" required name="Message"></p>
+                <p><button class="w3-button" type="submit">SEND</button></p>
+            </form>
+            </div>
+        </div>
+        </div>
+    <footer><p>sunday - thursday 4:00 pm - 10:00 pm<br>15th St, Khobar SA</p></footer>
+    </body>
+</html>
+
